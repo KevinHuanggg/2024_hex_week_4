@@ -9,6 +9,13 @@ export default {
         third: "#9f1213",
         pink: "#FBF2F2",
       },
+      screens: {
+        sm: '640px',
+        md: '768px',
+        lg: '992px', // 將 lg 斷點設為 992px
+        xl: '1320px',
+        '2xl': '1536px',
+      },
     },
     container: {
       center: true,
