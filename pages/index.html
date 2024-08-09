@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <%- include('./layout/link'); -%>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <%- include('./layout/link'); -%>
     <title>首頁</title>
-  </head>
-  <body class=" text-text-primary">
-    <%- include('./layout/header'); -%>
-    
+</head>
+
+<body class=" text-text-primary">
+  <%- include('./layout/header'); -%>
+
     <div class="bg-cover bg-center h-[396px] bg-home-header-sm md:h-[787px] lg:bg-home-header">
       <div class="container flex items-center justify-end h-full">
         <div class="flex flex-col items-end">
@@ -19,9 +21,38 @@
         </div>
       </div>
     </div>
-    
+
+    <div class="bg-pink">
+      <div class="container flex flex-col items-center pt-10 md:pt-20">
+        <h2 class="mb-8 text-2xl font-bold md:text-5xl">用專業的心，做專業的事</h2>
+        <ul class="flex flex-wrap text-center -me-3 -ms-3">
+          <li class="w-full p-3 md:w-1/2 lg:w-1/4">
+            <img class="w-[83px] mx-auto mb-6" src="../assets/images/home-section2-1.png" alt="">
+            <h3 class="mb-2 text-2xl font-bold">單一價格</h3>
+            <p class="text-black text-start">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+          </li>
+          <li class="w-full p-3 md:w-1/2 lg:w-1/4">
+            <img class="w-[83px] mx-auto mb-6" src="../assets/images/home-section2-2.png" alt="">
+            <h3 class="mb-2 text-2xl font-bold">20 分鐘即可取件</h3>
+            <p class="text-black text-start">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+          </li>
+          <li class="w-full p-3 md:w-1/2 lg:w-1/4">
+            <img class="w-[83px] mx-auto mb-6" src="../assets/images/home-section2-3.png" alt="">
+            <h3 class="mb-2 text-2xl font-bold">安心售後服務</h3>
+            <p class="text-black text-start">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+          </li>
+          <li class="w-full p-3 md:w-1/2 lg:w-1/4">
+            <img class="w-[83px] mx-auto mb-6" src="../assets/images/home-section2-4.png" alt="">
+            <h3 class="mb-2 text-2xl font-bold">關於鏡片</h3>
+            <p class="text-black text-start">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+          </li>
+        </ul>
+      </div>
+    </div> //TODO: 從這裡開始
+
     <%- include('./layout/footer'); -%>
 
-    <script type="module" src="../main.js"></script>
-  </body>
+      <script type="module" src="../main.js"></script>
+</body>
+
 </html>
