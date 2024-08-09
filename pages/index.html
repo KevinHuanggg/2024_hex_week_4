@@ -7,10 +7,17 @@
     <%- include('./layout/link'); -%>
     <title>首頁</title>
   </head>
-  <body>
+  <body class=" text-text-primary">
     <%- include('./layout/header'); -%>
-    <div class="container">
-      <h1 class="text-indigo-500 text-[120px] mb-10">我是首頁</h1>
+    
+    <div class="bg-cover bg-center h-[396px] bg-home-header-sm md:h-[787px] lg:bg-home-header">
+      <div class="container flex items-center justify-end h-full">
+        <div class="flex flex-col items-end">
+          <p class="md:text-4xl">Promise-Desert 2020 早春系列</p>
+          <h2 class="mb-1 text-2xl font-bold md:text-6xl md:mb-[10px] md:py-4">看得清，才能看得遠</h2>
+          <a class="px-3 py-1.5 text-xl text-white bg-primary" href="">立即購買</a>
+        </div>
+      </div>
     </div>
     
     <%- include('./layout/footer'); -%>

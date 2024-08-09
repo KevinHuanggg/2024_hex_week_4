@@ -8,6 +8,7 @@ export default {
         secondary: "#fbf2f2",
         third: "#9f1213",
         pink: "#FBF2F2",
+        'text-primary': "#650300",  // 主文字顏色
       },
       screens: {
         sm: '640px',
@@ -16,6 +17,10 @@ export default {
         xl: '1320px',
         '2xl': '1536px',
       },
+      backgroundImage: {
+        'home-header': "url('../assets/images/home-header.png')",
+        'home-header-sm': "url('../assets/images/home-header-sm.png')",
+      }
     },
     container: {
       center: true,
