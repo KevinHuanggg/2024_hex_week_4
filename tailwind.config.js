@@ -18,8 +18,8 @@ export default {
         '2xl': '1536px',
       },
       backgroundImage: {
-        'home-header': "url('../assets/images/home-header.png')",
-        'home-header-sm': "url('../assets/images/home-header-sm.png')",
+        'home-header': "url('/assets/images/home-header.png')",
+        'home-header-sm': "url('/assets/images/home-header-sm.png')",
       }
     },
     container: {
