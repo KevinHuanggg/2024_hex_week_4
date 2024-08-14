@@ -8,7 +8,9 @@ export default {
         secondary: "#fbf2f2",
         third: "#9f1213",
         pink: "#FBF2F2",
-        'text-primary': "#650300",  // 主文字顏色
+        'text-primary': "#650300",
+        'border-gray': "#DEE2E6",
+        'gray': "#707070",
       },
       screens: {
         sm: '640px',
@@ -20,7 +22,25 @@ export default {
       backgroundImage: {
         'home-header': "url('/assets/images/home-header.png')",
         'home-header-sm': "url('/assets/images/home-header-sm.png')",
-      }
+        'index-bg-sm': "url('/assets/images/index-bg-sm.png')",
+        'index-bg-md': "url('/assets/images/index-bg-md.png')",
+        'index-bg': "url('/assets/images/index-bg.png')",
+      },
+      fontSize: {
+        'xs': ['0.75rem', '1.5'],
+        'sm': ['0.875rem', '1.5'],
+        'base': ['1rem', '1.5'],
+        'lg': ['1.125rem', '1.5'],
+        'xl': ['1.25rem', '1.5'],
+        '2xl': ['1.5rem', '1.5'],
+        '3xl': ['1.875rem', '1.5'],
+        '4xl': ['2.25rem', '1.5'],
+        '5xl': ['3rem', '1.5'],
+        '6xl': ['3.75rem', '1.5'],
+        '7xl': ['4.5rem', '1.5'],
+        '8xl': ['6rem', '1.5'],
+        '9xl': ['8rem', '1.5'],
+      },
     },
     container: {
       center: true,

@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  /*擴充專案的全站樣式*/
-  @layer base {
-    html {
-      font-family: "Roboto", "Noto Sans TC", "sans-serif";
-    }
+  /* 擴充專案的全站樣式 */
+  html {
+    font-family: "Roboto", "Noto Sans TC", "sans-serif";
+  }
+
+  body {
+    @apply leading-normal;
   }
 }
 
